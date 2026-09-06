@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Advanced Search</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- الروابط العلوية -->
+    <div class="links">
+        <a href="index.html">Google Search</a>
+        <a href="imges.html">Images</a>
+    </div>
+
+
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+
+        <!-- شعار Google -->
+        <h1>
+            <span class="blue">G</span>
+            <span class="red">o</span>
+            <span class="yellow">o</span>
+            <span class="blue">g</span>
+            <span class="green">l</span>
+            <span class="red">e</span>
+        </h1>
+
+        <h2>Advanced Search</h2>
+
+
+        <!-- الفورم -->
+        <form action="https://www.google.com/search" method="get">
+
+            <div class="form-row">
+
+                <label for="all">
+                    all these words:
+                </label>
+
+                <input
+                    type="text"
+                    id="all"
+                    name="q">
+            </div>
+
+
+            <div class="form-row">
+
+                <label for="exact">
+                    this exact word or phrase:
+                </label>
+
+                <input
+                    type="text"
+                    id="exact"
+                    name="as_epq">
+            </div>
+
+
+            <div class="form-row">
+
+                <label for="any">
+                    any of these words:
+                </label>
+
+                <input
+                    type="text"
+                    id="any"
+                    name="as_oq">
+            </div>
+
+
+            <div class="form-row">
+
+                <label for="none">
+                    none of these words:
+                </label>
+
+                <input
+                    type="text"
+                    id="none"
+                    name="as_eq">
+            </div>
+
+
+            <!-- زر البحث -->
+            <div class="button-container">
+
+                <input
+                    type="submit"
+                    value="Advanced Search">
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
